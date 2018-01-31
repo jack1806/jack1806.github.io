@@ -1,0 +1,149 @@
+.container{
+  display: flex;
+}
+.intro_data{
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  width: auto;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+}
+#define{
+  margin-left: 15px;
+  padding-top: 5px;
+}
+dt,dfn{
+  font-weight: bolder;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+dd{
+  color: #5e5e5e;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+#author_details{
+  color: #55A2CE;
+  font-size: 13px;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 0;
+}
+#post_header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+#post_data{
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+#image_gallery{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  color: #6AB344;
+  clear: left;
+  display: flex;
+  padding-top: 15px;
+}
+#profile_pic{
+  float: left;
+  margin: 0;
+  margin-top: auto;
+  margin-right: 3vh;
+  padding: 0;
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+}
+#posts_head{
+  color: #3D4F5D;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+#pure_intro{
+  margin-left: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #7B90A3;
+}
+#data{
+  padding:24px 36px 0px 36px;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  background-color: #EBEBEB;
+}
+#intro{
+  background-color: #3D4F5D;
+  width: 20%;
+  padding-right: 16px;
+  position: relative;
+}
+#inner{
+  position: fixed;
+  height: auto;
+  width: 18%;
+  padding-right: 5vh;
+  margin-top: 40vh;
+}
+ul{
+  list-style: none;
+}
+.profile_link{
+  height: 20px;
+  float: left;
+  margin-bottom: 5px;
+  clear: left;
+}
+li{
+  margin-bottom: 2px;
+}
+a{
+  height: inherit;
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  color: #3F87A6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+a:hover{
+  text-decoration: underline;
+}
+table{
+  width: 100%;
+  border-color: #5e5e5e;
+  border-width: thin;
+  border-style: solid;
+  margin-bottom: 10vh;
+}
+#header_data{
+  padding-top: 2vh;
+}
+th{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: #5e5e5e solid thin;
+}
+td{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
